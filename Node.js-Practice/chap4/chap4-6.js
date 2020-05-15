@@ -6,9 +6,10 @@ const fs = require('fs');
 const users = {};
 
 http.createServer((req, res) => {
+  // 가장 먼저 get방식부터
   if (req.method === 'GET') {
     if (req.url === '/') {
-      return fs.readFile('./restFront.html', (err, data) => {
+      return fs.readFile('./front.html', (err, data) => {
         if (err) {
           throw err;
         }
@@ -69,6 +70,6 @@ http.createServer((req, res) => {
   res.writeHead(404, 'NOT FOUND');
   return res.end('NOT FOUND');
 })
-  .listen(8085, () => {
-    console.log('8085번 포트에서 서버 대기중입니다');
+  .listen(8080, () => {
+    console.log('8080번 포트에서 서버 대기중입니다');
   });
