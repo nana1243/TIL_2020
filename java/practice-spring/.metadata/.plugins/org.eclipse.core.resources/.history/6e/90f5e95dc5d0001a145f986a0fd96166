@@ -1,0 +1,7 @@
+package pro.test;
+
+import javax.servlet.ServletContextListener;
+
+public class contextLoaderListner implements ServletContextListener {
+
+}

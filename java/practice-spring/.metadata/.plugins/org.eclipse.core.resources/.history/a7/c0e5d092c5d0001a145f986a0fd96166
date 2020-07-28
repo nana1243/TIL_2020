@@ -1,0 +1,9 @@
+package pro.test;
+
+import javax.servlet.ServletContextListener;
+
+import org.springframework.web.context.ContextLoader;
+
+public class contextLoaderListner extends ContextLoader implements ServletContextListener {
+
+}
