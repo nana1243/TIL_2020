@@ -1,0 +1,28 @@
+package polymorphism;
+
+import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.GenericApplicationContext;
+
+public class TVuser {
+
+	public static void main(String[] args) {
+
+//		TV samsungtv = new SamsungTV();
+//		TV lgtv = new LgTV();
+//		
+//		
+//		samsungtv.powerOn();
+//		samsungtv.volumeOn();
+//		lgtv.powerOff();
+//		
+
+		GenericApplicationContext context = new GenericApplicationContext();
+		new XmlBeanDefinitionReader(context).loadBeanDefinitions("applicationContext.xml");
+		context.refresh();		
+		TV tv = (TV) context.getBean("samsungtv");
+		tv.powerOff();
+
+	}
+
+}

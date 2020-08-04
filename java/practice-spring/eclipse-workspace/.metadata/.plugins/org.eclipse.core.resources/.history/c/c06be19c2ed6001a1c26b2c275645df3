@@ -1,0 +1,10 @@
+package com.springbook.biz;
+
+public interface Service {
+	
+	public void insertboard();
+
+	public void deleteboard();
+	public void updateboard();
+	public void readboard();
+}

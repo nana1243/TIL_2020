@@ -1,0 +1,9 @@
+package polymorphism;
+
+public class SonySpeaker {
+	
+	public SonySpeaker() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

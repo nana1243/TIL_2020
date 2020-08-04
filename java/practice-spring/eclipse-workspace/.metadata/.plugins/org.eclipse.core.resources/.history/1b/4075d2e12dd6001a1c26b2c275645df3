@@ -1,0 +1,23 @@
+package com.springbook.biz.board;
+
+public class BoardVO {
+	
+	private int seq;
+	private String title;
+	private String writer;
+	
+	
+	public BoardVO() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public BoardVO(int seq, String title, String writer) {
+		this.seq = seq;
+		this.title = title;
+		this.writer = writer;
+	}
+	
+	
+
+}

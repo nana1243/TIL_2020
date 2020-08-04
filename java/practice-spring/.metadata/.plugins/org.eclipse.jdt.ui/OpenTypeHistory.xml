@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=practice-springIOCcontainer/C:\/apache-tomcat-9.0.37.tar\/apache-tomcat-9.0.37\/lib\/servlet-api.jar=/owner.project.facets=/jst.web=/=/javadoc_location=/https:\/\/javaee.github.io\/javaee-spec\/javadocs\/=/&lt;javax.servlet(ServletContextListener.class[ServletContextListener" modifiers="1537" timestamp="1593547911000"/>
-<typeInfo handle="=practice-springIOCcontainer/C:\/Users\/HY-PC\/.m2\/repository\/org\/springframework\/spring-web\/4.2.5.RELEASE\/spring-web-4.2.5.RELEASE.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-web-4.2.5.RELEASE.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-web=/=/maven.version=/4.2.5.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.web.context(ServletContextAware.class[ServletContextAware" modifiers="1537" timestamp="1595928163029"/>
-</typeInfoHistroy>

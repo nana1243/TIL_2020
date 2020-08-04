@@ -1,0 +1,39 @@
+package com.springbook.biz.boardimpl;
+
+import java.sql.Connection;
+
+import org.springframework.stereotype.Repository;
+
+import com.springbook.biz.DAO;
+
+@Repository("boardDAO")
+public class BoardDAO implements DAO {
+
+	@Override
+	public void insert() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void read() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+	
+
+}

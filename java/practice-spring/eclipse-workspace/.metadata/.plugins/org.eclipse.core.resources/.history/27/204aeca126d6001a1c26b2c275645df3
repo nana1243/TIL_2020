@@ -1,0 +1,11 @@
+package polymorphism;
+
+public interface SonySpeaker {
+	
+	
+	
+	public SonySpeaker() {
+		System.out.println("");
+	}
+
+}

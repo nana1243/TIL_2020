@@ -1,0 +1,29 @@
+package polymorphism;
+
+public class SamsungTV implements TV {
+
+	@Override
+	public void powerOn() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void powerOff() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void volumeOn() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void volumeOff() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

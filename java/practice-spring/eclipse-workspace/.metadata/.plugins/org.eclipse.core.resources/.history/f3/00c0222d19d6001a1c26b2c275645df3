@@ -1,0 +1,29 @@
+package polymorphism;
+
+public class SamsungTV implements TV {
+
+	@Override
+	public void powerOn() {
+		System.out.println("»ï¼ºÆ¼ºñÄÑÁü");
+	}
+
+	@Override
+	public void powerOff() {
+		System.out.println("»ï¼ºÆ¼ºñ²¨Áü");
+
+	}
+
+	@Override
+	public void volumeOn() {
+		System.out.println("»ï¼ºÆ¼ºñ ¼Ò¸®Å´");
+
+
+	}
+
+	@Override
+	public void volumeOff() {
+		System.out.println("»ï¼ºÆ¼ºñ ¼Ò¸®²û");
+
+	}
+
+}

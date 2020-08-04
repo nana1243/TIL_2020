@@ -1,0 +1,25 @@
+package polymorphism;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.GenericApplicationContext;
+
+public class TVuser {
+
+	public static void main(String[] args) {
+		
+//		TV samsungtv = new SamsungTV();
+//		TV lgtv = new LgTV();
+//		
+//		
+//		samsungtv.powerOn();
+//		samsungtv.volumeOn();
+//		lgtv.powerOff();
+//		
+		
+		AbstractApplicationContext factory = new GenericApplicationContext();
+		TV samsumgtv = (TV)factory.getBean("samsungtv");
+		
+
+	}
+
+}

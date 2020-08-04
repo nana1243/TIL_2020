@@ -1,0 +1,41 @@
+package com.springbook.biz.boardimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.springbook.biz.board.BoardService;
+import com.springbook.biz.common.LogAdvice;
+
+@Service("boardService")
+public class BoardServiceImpl implements BoardService {
+	
+	@Autowired
+	private BoardDAO boardDAO;
+	private LogAdvice log;
+
+	@Override
+	public void insertboard() {
+		log.printLog();
+		boardDAO.insert();
+	}
+
+	@Override
+	public void deleteboard() {
+		log.printLog();
+		boardDAO.delete();
+	}
+
+	@Override
+	public void updateboard() {
+		log.printLog();
+		boardDAO.update();
+	}
+
+	@Override
+	public void readboard() {
+		log.printLog();
+		boardDAO.read();
+
+	}
+
+}

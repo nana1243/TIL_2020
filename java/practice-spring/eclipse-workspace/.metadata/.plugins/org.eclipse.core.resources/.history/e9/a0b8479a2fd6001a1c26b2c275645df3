@@ -1,0 +1,34 @@
+package com.springbook.biz.boardimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.springbook.biz.board.BoardService;
+
+
+public class BoardServiceImpl implements BoardService {
+	
+	@Autowired
+	private BoardDAO boardDAO;
+
+	@Override
+	public void insertboard() {
+		boardDAO.insert();
+	}
+
+	@Override
+	public void deleteboard() {
+		boardDAO.delete();
+	}
+
+	@Override
+	public void updateboard() {
+		boardDAO.update();
+	}
+
+	@Override
+	public void readboard() {
+		boardDAO.read();
+
+	}
+
+}

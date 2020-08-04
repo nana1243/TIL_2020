@@ -1,0 +1,14 @@
+package com.springbook.biz.board;
+
+import org.springframework.beans.factory.xml.XmlBeanDefinitionReader;
+import org.springframework.context.support.GenericApplicationContext;
+
+public class BoardServiceClient {
+
+	public static void main(String[] args) {
+		GenericApplicationContext container = new GenericApplicationContext();
+		new XmlBeanDefinitionReader(container).loadBeanDefinitions("applicationContext.xml");
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package polymorphism;
+
+import org.springframework.beans.factory.BeanFactory;
+
+public class TVuser {
+
+	public static void main(String[] args) {
+		
+		TV samsungtv = new SamsungTV();
+		TV lgtv = new LgTV();
+		
+		
+		samsungtv.powerOn();
+		samsungtv.volumeOn();
+		lgtv.powerOff();
+		
+		
+		
+		BeanFactory factory = new BeanFactory();
+		
+		
+
+	}
+
+}

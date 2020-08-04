@@ -1,0 +1,32 @@
+package polymorphism;
+
+public class LgTV implements TV{
+	
+	public LgTV() {
+	System.out.println("lgtv start");
+	}
+
+	@Override
+	public void powerOn() {
+		System.out.println("LGTV Å´");
+		
+	}
+
+	@Override
+	public void powerOff() {
+		System.out.println("LGTV ²û");
+		
+	}
+
+	@Override
+	public void volumeOn() {
+		System.out.println("LGTV ¼Ò±âÅ´");
+		
+	}
+	@Override
+	public void volumeOff() {
+		System.out.println("LGTV ¼Ò±â²û");
+		
+	}
+
+}

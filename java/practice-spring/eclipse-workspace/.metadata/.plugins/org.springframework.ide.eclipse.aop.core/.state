@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="WebBoard"/>
+<aop-project name="WebBoard2"/>
+<aop-project name="WebBoard3"/>
+<aop-project name="WebBoard4"/>
+<aop-project name="WebBoard5"/>
+</aop-reference-model>

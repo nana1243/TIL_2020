@@ -1,0 +1,12 @@
+package polymorphism;
+
+public class TVuser {
+
+	public static void main(String[] args) {
+		
+		TV samsungtv = new SamsungTV();
+		
+
+	}
+
+}
