@@ -14,7 +14,7 @@
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<spring.batch.version>4.2.1.RELEASE</spring.batch.version>
+		<spring.batch.version>4.2.3.RELEASE</spring.batch.version>
 		<spring.version>5.2.2.RELEASE</spring.version>
 		<hibernate.version>5.4.10.Final</hibernate.version>
 		<apache.dbcp2.version>2.7.0</apache.dbcp2.version>
